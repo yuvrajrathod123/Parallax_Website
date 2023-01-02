@@ -3,7 +3,7 @@ html,
 body{
     height: 100%;
     margin: 0;
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-family: "lato", sans-serif;
     font-weight: 400;
     line-height: 1.8em;
@@ -50,7 +50,7 @@ body{
     top: 50%;
     width: 100%;
     text-align:center;
-    font-size: 2rem;
+    font-size: 1rem;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
     /* background-color: #666; */
@@ -58,13 +58,13 @@ body{
 
 .text-bg{
     background-image: linear-gradient( 109.6deg,  rgba(209,0,116,1) 11.2%, rgba(110,44,107,1) 91.1% );
-    padding: 1.5rem;
+    padding: 1rem;
     color: #fff;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .section{
-    padding: 50px 80px;
+    padding: 40px 55px;
     text-align:center;
 }
 
@@ -76,4 +76,38 @@ body{
 .section-dark{
     background-color: #123;
     color: #ddd;
+}
+
+/* ======================= media queries ====================== */
+
+@media (max-width:500px){
+    html,
+    body{
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 1.8em;
+        color: #666;
+    }
+    .ptext{
+        font-size: 0.8rem;
+    }
+
+    .section{
+        padding: 20px 10px;
+        text-align:center;
+        font-size: 1rem;
+    }
+
+    .pimg1{
+        min-height:80%;
+    }
+    .pimg2{
+        min-height:60%;
+    }
+    .pimg3{ 
+        min-height:60%;
+    }
+    .pimg4{
+        min-height:90%;
+    }
 }
