@@ -9,3 +9,71 @@ body{
     line-height: 1.8em;
     color: #666;
 }
+
+.pimg1{
+    background: url(img/amy-shamblen--Y6QKONa8Sg-unsplash.jpg);
+    min-height:90%;
+}
+.pimg2{
+    background: url(img/leonard-cotte-c1Jp-fo53U8-unsplash.jpg);
+    min-height:70%;
+}
+.pimg3{
+    background: url(img/michael-fenton-0ZQ8vojHNuc-unsplash.jpg);
+    min-height:70%;
+}
+.pimg4{
+    background: url(img/annette-sousa-HW-ep3fC4Kc-unsplash.jpg);
+    min-height:100%;
+}
+
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4{
+    position:relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    OR */
+
+    /* to align the text centre */
+    top: 50%;
+    width: 100%;
+    text-align:center;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    /* background-color: #666; */
+}
+
+.text-bg{
+    background-image: linear-gradient( 109.6deg,  rgba(209,0,116,1) 11.2%, rgba(110,44,107,1) 91.1% );
+    padding: 1.5rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align:center;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666 ;
+}
+
+.section-dark{
+    background-color: #123;
+    color: #ddd;
+}
